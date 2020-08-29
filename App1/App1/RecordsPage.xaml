@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.RecordsPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button x:Name="LogOut" Text="LOGOUT" Clicked="btnLogOut"
+                    HorizontalOptions="End"
+                    Margin="0,20,0,0"/>
+
+
+            <Label Text="Records Page" 
+             FontAttributes="Bold"
+             FontSize="Large"
+             FontFamily="Viner ITC"
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="StartAndExpand" 
+               Margin="10,50,10,10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

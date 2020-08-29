@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Details">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button x:Name="LogOut" Text="LOGOUT" Clicked="btnLogOut"
+                    HorizontalOptions="End"
+                    Margin="0,20,0,0"/>
+            
+            <Label Text="Please Enter employee details to save" 
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="StartAndExpand" 
+               Margin="10,20,10,10"/>
+
+            
+
+            <Entry x:Name="FirstName" Placeholder="Enter your First Name"/>
+            <Entry x:Name="LastName" Placeholder="Enter your Last Name"/>
+            <Entry x:Name="DOB" Placeholder="Enter your Date Of Birth"/>
+            <Entry x:Name="ContactNum" Placeholder="Contact Number"/>
+            <Entry x:Name="Department" Placeholder="Department: Office or Production"/>
+            <Entry x:Name="Holidays" Placeholder="Days of Holidays left"/>
+            <Label x:Name="lblFinish" Text="If you are finish please click: " />
+            <Button x:Name="SaveDetails" Text="Save Details" Clicked="btnSaved_Details" />
+            <Label x:Name="lblRecords" Text="If you want to see saved records please click: " />
+            <Button x:Name="RecordsPage" Text="Saved Records " Clicked="btnRecordsPage" />
+        
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

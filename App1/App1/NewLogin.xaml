@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.NewLogin">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Please New Name and Password to create a Login" 
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand"
+           FontSize="20"
+           Font="Arial"
+           Margin="10,20,10,10"/>
+
+            <Entry x:Name="UserName" Placeholder="UserName"/>
+            <Entry x:Name="Password" Placeholder="Password" VerticalOptions="Center"/>
+            <Button x:Name="SaveLogin" Text="Save New Login" Clicked="btnSaveLogin"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
